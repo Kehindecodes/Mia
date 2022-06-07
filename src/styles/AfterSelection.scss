@@ -1,0 +1,73 @@
+.selection_wrapper{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    width: 100%;
+    -webkit-box-shadow:  0px 3px 20px #00000029;
+    -moz-box-shadow:  0px 3px 20px #00000029;
+    box-shadow:  0px 3px 20px #00000029;
+    height: 425px;
+    border-radius: 10px;
+    padding:3rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 26px;
+    }
+    .selections{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .icon_wrapper{
+        width: 60px;
+        height: 60px;
+        border: 1px solid #E6E6E6;
+        border-radius: 50%;
+        display: flex;
+align-items: center;
+text-align: right;
+justify-content: center;
+
+        
+    }
+    .card{
+        border-radius: 8px;
+        width: 410px;
+        height: 128px;
+        display: flex;
+        border: 1px solid #E6E6E6;
+        word-wrap: normal;
+     &:hover{
+        cursor: pointer;
+        border: 1px solid #0FC1A7;
+        box-shadow: 0px 8px 10px #0FC1A733;
+        
+            svg{
+                color: #0FC1A7;
+            }
+            .icon_wrapper{
+                border: 1px solid #0FC1A7;
+            }
+        
+     }
+        .card-body{
+            display: flex;
+            align-items: center;
+            text-align: left;
+           
+            .card-title{
+                font-size: 18px;
+                font-family: "avenir";
+            }
+            .card-text{
+                font-size: 16px;
+                font-family: "avenir";
+                color: #929292;
+            }
+            
+        }
+        
+    }
+}
