@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "georgia";
+    src: url("../fonts/georgia/Georgia\ Regular\ font.ttf");
+}
 .form_wrapper{
     width:820px;
     height:618px;
@@ -8,6 +12,8 @@
 }
 .form_wrapper h1{
     font-weight: 500;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form_btn{
@@ -25,6 +31,9 @@
 }
 .form-control{
     border:1px solid #E6E6E6 !important ;
+    font-family: "georgia";
+    font-size: 18px;
+
 }
 /* .form-control:focus {
     color: #0000 !important;

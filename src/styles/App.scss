@@ -1,26 +1,39 @@
+@font-face {
+    font-family:"avenir" ;
+    src: url("../fonts/avenir/Avenir\ Next\ LT\ Pro\ Regular.otf");
+}
+
 .header_btn{
     width:102.5px;
-    /* background-color:#0FC1A7; */
     border:none;
-    color:#fff
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 .header_btn:hover{
     color:#fff
     
   
 }
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
 
 .nav-link{
     color:#000000!important;
     font-weight: 400;
     text-transform: capitalize;
+    font-family: "avenir";
+    font-size: 18px;
 
 }
 .nav-link:hover{
-    color:#0FC1A7!important
+    color:#0FC1A7!important;
 }
 .navbar-brand{
-    color:#0FC1A7!important
+    color:#0FC1A7!important;
+    font-size: 30px;
 }
 .navbar{
     margin-top: -3px;
@@ -44,11 +57,13 @@ footer{
 }
 footer p{
     color: #929292;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: "avenir";
 }
 footer h5{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
+    font-family: "avenir";
 
 }
 .footer_wrapper{
@@ -61,7 +76,8 @@ footer h5{
     a{
         color: #929292;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 18px;
+    font-family: "avenir";
         &:hover{
             text-decoration: underline;
         }

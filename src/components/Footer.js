@@ -37,7 +37,7 @@ const Footer = () => {
 								</div>
 							</div>
 						</Col>
-						<Col className='me-5' md='3'>
+						<Col md='3'>
 							<div className='partner'>
 								<h5>Partner With Us</h5>
 								<p>
