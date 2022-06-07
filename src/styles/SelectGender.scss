@@ -1,0 +1,56 @@
+.rect{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    width: 100%;
+    -webkit-box-shadow:  0px 3px 20px #00000029;
+    -moz-box-shadow:  0px 3px 20px #00000029;
+    box-shadow:  0px 3px 20px #00000029;
+    height: 497px;
+    border-radius: 10px;
+    padding:3rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 26px;
+    }
+    .gender_wrapper{
+        display: flex;
+        .gender_card{
+            width: 200px;
+            height:200px;
+            box-shadow:  0px 0px 20px #0000001A;;
+            border-radius: 8px;
+            display: flex;
+           align-items: center;
+            justify-content: center;
+            text-align: center;
+            &:hover{
+                cursor: pointer;
+                border: 1px solid #0FC1A7;
+                box-shadow: 0px 0px 20px #0FC1A759;
+            }
+            &:hover {
+              p{
+                  color: #0FC1A7;
+              }
+              svg{
+                  color: #0FC1A7;
+              }
+            }
+            p{
+              margin-top: 1.5rem;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 18px;
+            }
+    
+        }
+    }
+    
+    .btnwrapper{
+        width: 100%;
+        
+    }
+}

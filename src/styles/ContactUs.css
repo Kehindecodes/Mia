@@ -20,13 +20,13 @@
     background:#0FC1A7 ;
     width: 167px;
     height: 65px;
-    box-shadow: 0px 6px 20px #0FC1A736;
     border-radius:20px;
     border: none;
     color: #fff;
 }
 .form_btn:hover{
     color: #fff;
+    box-shadow: 0px 6px 20px #0FC1A736;
   
 }
 .form-control{

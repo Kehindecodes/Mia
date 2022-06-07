@@ -14,7 +14,13 @@ const Footer = () => {
 					<Row>
 						<Col md='4' className='me-5'>
 							<div className='company'>
-								<h3 className='text-primary'>MIA</h3>
+								<div className='logo'>
+									<a href='#home' className='text-primary'>
+										MIA
+										<small>maidinaddis.com</small>
+									</a>
+								</div>
+
 								<p>
 									We Are India's Largest Online Aggregator Of Maid Bureaus.
 									Whether You Are Looking For A Maid Or A Nanny Or A Patient
