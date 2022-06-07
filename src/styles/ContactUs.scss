@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "georgia";
+    src: url("../fonts/georgia/Georgia\ Regular\ font.ttf");
+}
+.form_wrapper{
+    width:820px;
+    height:618px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5rem;
+    h1{
+        font-weight: 500;
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+.form_btn{
+    background:#0FC1A7 ;
+    width: 167px;
+    height: 65px;
+    border-radius:20px;
+    border: none;
+    color: #fff;
+    &:hover{
+        color: #fff;
+        box-shadow: 0px 6px 20px #0FC1A736;
+      
+    }
+}
+
+.form-control{
+    border:1px solid #E6E6E6 !important ;
+    font-family: "georgia";
+    font-size: 18px;
+
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ContactForm from '../components/Form';
 import Layout from '../components/Layout';
-import '../styles/ContactUs.css';
+import '../styles/ContactUs.scss';
 
 const ContactUs = () => {
 	return (
