@@ -34,11 +34,21 @@ const Footer = () => {
 							<div className='quickLinks'>
 								<h5>About Maidinaddis.com</h5>
 								<div className='link_wrapper'>
-									<a href='#home'>Home</a>
-									<a href='#about'>About us</a>
-									<a href='#terms'>Terms Of Use</a>
-									<a href='#privacy'>Privacy Policy</a>
-									<a href='#blacklisted'>Blacklisted Maids</a>
+									<a href='#home' className='mb-2'>
+										Home
+									</a>
+									<a href='#about' className='mb-2'>
+										About us
+									</a>
+									<a href='#terms' className='mb-2'>
+										Terms Of Use
+									</a>
+									<a href='#privacy' className='mb-2'>
+										Privacy Policy
+									</a>
+									<a href='#blacklisted' className='mb-2'>
+										Blacklisted Maids
+									</a>
 									<a href='#contact'>Contact Us</a>
 								</div>
 							</div>
