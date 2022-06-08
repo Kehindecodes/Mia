@@ -3,6 +3,7 @@ import ContactUs from './pages/ContactUs';
 import SelectGender from './components/SelectGender';
 import AfterSelection from './components/AfterSelection';
 import Salary from './components/Salary';
+import Duration from './components/Duration';
 
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 			{/* <ContactUs /> */}
 			{/* <SelectGender /> */}
 			{/* <AfterSelection /> */}
-			<Salary />
+			{/* <Salary /> */}
+			<Duration />
 		</div>
 	);
 }
