@@ -1,0 +1,104 @@
+.job_form_wrapper{
+    width:100%;
+    height: 1592px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow:  0px 3px 20px #00000029;
+    -moz-box-shadow:  0px 3px 20px #00000029;
+    box-shadow:  0px 3px 20px #00000029;
+    border-radius: 10px;
+    padding:3rem  1rem;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    text-align: center;
+    font-family: "avenir";
+    
+    h1,h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+    }
+    .form-control,.form-select{
+        height: 65px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-family: "avenir";
+       
+        &:focus{
+            box-shadow: 0px 3px 15px #0FC1A736;
+           border: 1px solid #0FC1A7;
+        }
+    }
+    .form-control::placeholder{
+        color: #e6e6e6 !important;
+    }
+    .form-control:focus{
+        box-shadow: 0px 3px 15px #0FC1A736;
+           border: 1px solid #0FC1A7 !important
+    }
+    .form-select,.form-check{
+        color: #929292;
+    }
+    
+    .radio-option{
+        text-align: left;
+    }
+    p{
+        color: #929292;
+    }
+    .custom-file{
+        position: relative;
+    }
+    .file_input {
+        position: absolute;
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        z-index: -1;
+        height: 65px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-family: "avenir";
+      }
+    
+      .file_label {
+        position: relative;
+        display: block;
+          width: 100%;
+          min-width: 335px;
+          min-height: 45px;
+        margin: 10px 0;
+        padding: 1rem;
+        // border: 1px solid #0FC1A7 !important;
+        border-radius: 10px;
+        color: #929292;
+        border: 1px solid #e6e6e6;
+        font-size: 14px;
+    
+        // background: @white;
+        // border: 1px solid @gray-lighter;
+        // color: @gray-darker;
+    
+        line-height: 45px;
+        text-align: left;
+        // text-transform: none;
+    
+        cursor: pointer;
+        transition: all 0.3s;
+        &:focus{
+            box-shadow: 0px 3px 15px #0FC1A736;
+            border: 1px solid #0FC1A7 !important
+        }
+        svg{
+            position: absolute;
+            right: 5px;
+            top: 1.5rem;
+            width: 26px;
+            height: 26px;
+            margin-right:1rem ;
+           
+        }
+      }
+
+}

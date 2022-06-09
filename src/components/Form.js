@@ -34,7 +34,7 @@ const ContactForm = () => {
 				as='textarea'
 				rows={3}
 				placeholder='Comment'
-				className='mt-4'
+				className='mt-4 text_area'
 			/>
 			<Button variant='primary' className='form_btn mt-4' type='submit'>
 				Submit

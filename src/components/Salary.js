@@ -7,7 +7,7 @@ const Salary = () => {
 	return (
 		<Layout>
 			<Container>
-				<div className='form_wrapper'>
+				<div className=' salary_form_wrapper'>
 					<Form>
 						<Form.Label className='mb-4'>
 							The Approximate Salary For A Maid Who Works 1 Hour Daily In Birr.
