@@ -5,6 +5,7 @@ import AfterSelection from './components/AfterSelection';
 import Salary from './components/Salary';
 import Duration from './components/Duration';
 import NeedJob from './components/NeedJob';
+import SalaryPopup from './components/SalaryPopup';
 
 function App() {
 	return (
@@ -14,7 +15,8 @@ function App() {
 			{/* <AfterSelection /> */}
 			{/* <Salary /> */}
 			{/* <Duration /> */}
-			<NeedJob />
+			{/* <NeedJob /> */}
+			<SalaryPopup />
 		</>
 	);
 }
