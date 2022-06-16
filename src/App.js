@@ -6,6 +6,7 @@ import Salary from './components/Salary';
 import Duration from './components/Duration';
 import NeedJob from './components/NeedJob';
 import SalaryPopup from './components/SalaryPopup';
+import MatchRequirement from './components/MatchRequirement';
 
 function App() {
 	return (
@@ -16,7 +17,8 @@ function App() {
 			{/* <Salary /> */}
 			{/* <Duration /> */}
 			{/* <NeedJob /> */}
-			<SalaryPopup />
+			{/* <SalaryPopup /> */}
+			<MatchRequirement />
 		</>
 	);
 }
